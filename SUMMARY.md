@@ -1,4 +1,4 @@
-bui# Summary
+# Summary
 
 * [Python 基础知识](basic/README.md)
     * [背景及绘制第一颗星](basic/background.md)
