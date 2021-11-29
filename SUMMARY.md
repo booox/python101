@@ -1,4 +1,4 @@
-bui# Summary
+# Summary
 
 * [Introduction](README.md)
 * [Python 基础知识](basic/README.md)
