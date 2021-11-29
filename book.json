@@ -2,5 +2,5 @@
     "plugins": [
         "back-to-top-button",
         "-lunr", "-search", "search-pro",
-    ],
+    ]
 }
