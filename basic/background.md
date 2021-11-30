@@ -7,16 +7,30 @@
 
 ## 知识回顾
 
-* 导入及创建海龟实例
+%accordion%导入及创建海龟实例%accordion%
+```
+import turtle
+t = turtle.Turtle()
+``` 
+%/accordion%
 
-{% reveal text="查看提示" %}
-> [!TIP]
-> ```
-> import turtle
-> t = turtle.Turtle()
-> ``` 
-{% endreveal %}   
+%accordion%设置颜色%accordion%
+```
+t.color("yellow")  # 设置颜色
+``` 
+%/accordion%
 
+
+%accordion%填充图形%accordion%
+```
+t.begin_fill()   # 开始填充
+# 绘制的封闭图形
+t.end_fill()     # 填充结束
+``` 
+%/accordion%
+
+
+{% reveal text="参考代码" %}
 复制下面代码到 Thonny 中，保存为 01.py，执行
 
 ```python
@@ -33,6 +47,7 @@ for i in range(5):
 t.end_fill()     # 填充结束
 
 ```
+{% endreveal %}   
 
 执行结果如下图：
 
