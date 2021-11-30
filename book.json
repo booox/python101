@@ -5,7 +5,8 @@
 		"splitter",
 		"flexible-alerts",
 		"hide-element",
-		"click-reveal"
+		"click-reveal",
+		"accordion"
     ],
 	"pluginsConfig": {
 		"hide-element": {
