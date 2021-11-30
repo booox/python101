@@ -37,6 +37,10 @@
                 
             
                 
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-accordion/accordion.css">
+                
+            
+                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
@@ -215,17 +219,19 @@
 <li>&#x5728;&#x7A97;&#x53E3;&#x4E2D;&#x7ED8;&#x5236;&#x4E00;&#x9897;&#x4E94;&#x89D2;&#x661F;</li>
 </ul>
 <h2 id="&#x77E5;&#x8BC6;&#x56DE;&#x987E;">&#x77E5;&#x8BC6;&#x56DE;&#x987E;</h2>
-<ul>
-<li>&#x5BFC;&#x5165;&#x53CA;&#x521B;&#x5EFA;&#x6D77;&#x9F9F;&#x5B9E;&#x4F8B;</li>
-</ul>
-<div class="click_reveal"><span> &#x67E5;&#x770B;&#x63D0;&#x793A; </span><div><blockquote>
-<p>[!TIP]</p>
+<div class="accordion accordionClose"><div class="accordionButton"><div class="accordionTitle">&#x5BFC;&#x5165;&#x53CA;&#x521B;&#x5EFA;&#x6D77;&#x9F9F;&#x5B9E;&#x4F8B;</div><div class="accordionSpinnerBox"><div class="accordionSpinner"></div></div></div><div class="accordionContent">
 <pre><code>import turtle
 t = turtle.Turtle()
-</code></pre></blockquote>
-</div></div>   
-
-<p>&#x590D;&#x5236;&#x4E0B;&#x9762;&#x4EE3;&#x7801;&#x5230; Thonny &#x4E2D;&#xFF0C;&#x4FDD;&#x5B58;&#x4E3A; 01.py&#xFF0C;&#x6267;&#x884C;</p>
+</code></pre></div></div>
+<div class="accordion accordionClose"><div class="accordionButton"><div class="accordionTitle">&#x8BBE;&#x7F6E;&#x989C;&#x8272;</div><div class="accordionSpinnerBox"><div class="accordionSpinner"></div></div></div><div class="accordionContent">
+<pre><code>t.color(&quot;yellow&quot;)  # &#x8BBE;&#x7F6E;&#x989C;&#x8272;
+</code></pre></div></div>
+<div class="accordion accordionClose"><div class="accordionButton"><div class="accordionTitle">&#x586B;&#x5145;&#x56FE;&#x5F62;</div><div class="accordionSpinnerBox"><div class="accordionSpinner"></div></div></div><div class="accordionContent">
+<pre><code>t.begin_fill()   # &#x5F00;&#x59CB;&#x586B;&#x5145;
+# &#x7ED8;&#x5236;&#x7684;&#x5C01;&#x95ED;&#x56FE;&#x5F62;
+t.end_fill()     # &#x586B;&#x5145;&#x7ED3;&#x675F;
+</code></pre></div></div>
+<div class="click_reveal"><span> &#x53C2;&#x8003;&#x4EE3;&#x7801; </span><div><p>&#x590D;&#x5236;&#x4E0B;&#x9762;&#x4EE3;&#x7801;&#x5230; Thonny &#x4E2D;&#xFF0C;&#x4FDD;&#x5B58;&#x4E3A; 01.py&#xFF0C;&#x6267;&#x884C;</p>
 <pre><code class="lang-python"><span class="hljs-keyword">import</span> turtle
 
 t = turtle.Turtle()  <span class="hljs-comment"># &#x521B;&#x5EFA;&#x6D77;&#x9F9F;&#x5B9E;&#x4F8B;</span>
@@ -238,6 +244,8 @@ t.begin_fill()   <span class="hljs-comment"># &#x5F00;&#x59CB;&#x586B;&#x5145;</
     t.left(<span class="hljs-number">144</span>)   <span class="hljs-comment"># &#x4E94;&#x89D2;&#x661F;&#x8F6C;&#x52A8;&#x89D2;&#x5EA6;</span>
 t.end_fill()     <span class="hljs-comment"># &#x586B;&#x5145;&#x7ED3;&#x675F;</span>
 </code></pre>
+</div></div>   
+
 <p>&#x6267;&#x884C;&#x7ED3;&#x679C;&#x5982;&#x4E0B;&#x56FE;&#xFF1A;</p>
 <p><img src="../images/one-star.png" alt="&#x4E00;&#x9897;&#x661F;" width="40%"></p>
 <h2 id="&#x65B0;&#x77E5;&#x8BC6;">&#x65B0;&#x77E5;&#x8BC6;</h2>
@@ -255,11 +263,13 @@ height = <span class="hljs-number">889</span>
 wn.setup(width, height)     <span class="hljs-comment"># &#x8BBE;&#x7F6E;&#x7A97;&#x53E3;&#x5927;&#x5C0F;</span>
 wn.bgpic(<span class="hljs-string">&quot;city-night.gif&quot;</span>)  <span class="hljs-comment"># &#x8BBE;&#x7F6E;&#x80CC;&#x666F;&#x56FE;&#x7247;</span>
 </code></pre>
-<p>&#x8FD9;&#x91CC;&#x9700;&#x8981;&#x6CE8;&#x610F;&#xFF1A;</p>
+<blockquote>
+<p>[!TIP]</p>
 <ul>
 <li>&#x80CC;&#x666F;&#x56FE;&#x7247;&#x4E00;&#x5B9A;&#x8981; <code>.gif</code> &#x683C;&#x5F0F;&#x7684;&#x3002;</li>
 <li>&#x80CC;&#x666F;&#x56FE;&#x7247;&#x8981;&#x4E0E;&#x811A;&#x672C;&#x653E;&#x5728;&#x76F8;&#x540C;&#x7684;&#x6587;&#x4EF6;&#x5939;&#x5185;&#xFF0C;&#x5426;&#x5219;&#x8981;&#x6307;&#x660E;&#x56FE;&#x7247;&#x7684;&#x5177;&#x4F53;&#x8DEF;&#x5F84;&#x3002;</li>
 </ul>
+</blockquote>
 <h2 id="&#x4EFB;&#x52A1;&#x4E00;&#xFF1A;&#x8BBE;&#x7F6E;&#x7A97;&#x53E3;&#x7684;&#x80CC;&#x666F;">&#x4EFB;&#x52A1;&#x4E00;&#xFF1A;&#x8BBE;&#x7F6E;&#x7A97;&#x53E3;&#x7684;&#x80CC;&#x666F;</h2>
 <p>&#x5B8C;&#x6210;&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
 <p><img src="../images/background-img01.png" alt="&#x8BBE;&#x7F6E;&#x80CC;&#x666F;" width="30%"></p>
@@ -308,7 +318,7 @@ wn.bgpic(<span class="hljs-string">&quot;city-night.gif&quot;</span>)  <span cla
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"背景及绘制第一颗星","level":"1.2.1","depth":2,"next":{"title":"用“函数”绘制夜空中最亮的星","level":"1.2.2","depth":2,"path":"basic/func.md","ref":"basic/func.md","articles":[]},"previous":{"title":"Python 基础知识","level":"1.2","depth":1,"path":"basic/README.md","ref":"basic/README.md","articles":[{"title":"背景及绘制第一颗星","level":"1.2.1","depth":2,"path":"basic/background.md","ref":"basic/background.md","articles":[]},{"title":"用“函数”绘制夜空中最亮的星","level":"1.2.2","depth":2,"path":"basic/func.md","ref":"basic/func.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["-lunr","-search","search-pro","code","splitter","flexible-alerts","hide-element","click-reveal","livereload"],"pluginsConfig":{"livereload":{},"splitter":{},"search-pro":{},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"click-reveal":{},"highlight":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"basic/background.md","mtime":"2021-11-30T02:46:31.261Z","type":"markdown"},"gitbook":{"version":"3.0.3","time":"2021-11-30T02:50:51.470Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"背景及绘制第一颗星","level":"1.2.1","depth":2,"next":{"title":"用“函数”绘制夜空中最亮的星","level":"1.2.2","depth":2,"path":"basic/func.md","ref":"basic/func.md","articles":[]},"previous":{"title":"Python 基础知识","level":"1.2","depth":1,"path":"basic/README.md","ref":"basic/README.md","articles":[{"title":"背景及绘制第一颗星","level":"1.2.1","depth":2,"path":"basic/background.md","ref":"basic/background.md","articles":[]},{"title":"用“函数”绘制夜空中最亮的星","level":"1.2.2","depth":2,"path":"basic/func.md","ref":"basic/func.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["-lunr","-search","search-pro","code","splitter","flexible-alerts","hide-element","click-reveal","accordion","livereload"],"pluginsConfig":{"livereload":{},"splitter":{},"search-pro":{},"accordion":{},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"click-reveal":{},"highlight":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"basic/background.md","mtime":"2021-11-30T04:05:03.508Z","type":"markdown"},"gitbook":{"version":"3.0.3","time":"2021-11-30T03:15:22.523Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -343,6 +353,10 @@ wn.bgpic(<span class="hljs-string">&quot;city-night.gif&quot;</span>)  <span cla
     
         
         <script src="../gitbook/gitbook-plugin-click-reveal/click_reveal.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-accordion/accordionSelector.js"></script>
         
     
         
