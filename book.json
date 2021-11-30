@@ -4,7 +4,8 @@
 		"code",
 		"splitter",
 		"flexible-alerts",
-		"hide-element"
+		"hide-element",
+		"click-reveal"
     ],
 	"pluginsConfig": {
 		"hide-element": {
