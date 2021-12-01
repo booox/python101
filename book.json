@@ -6,7 +6,8 @@
 		"flexible-alerts",
 		"hide-element",
 		"click-reveal",
-		"accordion"
+		"accordion",
+		"popup"
     ],
 	"pluginsConfig": {
 		"hide-element": {
