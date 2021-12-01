@@ -31,6 +31,7 @@ t.end_fill()     # 填充结束
 
 
 %accordion%参考代码%accordion%
+
 复制下面代码到 Thonny 中，保存为 01.py，执行
 
 ```python
