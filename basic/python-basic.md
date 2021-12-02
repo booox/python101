@@ -204,8 +204,8 @@ if <expr>:
 * 如果 `<expr>` 为 `True`，则 `<statement>` 会被执行；如果为 `False`，则 `<statement>` 不会被执行
 
 > [!TIP]
-> `<expr>` 后面的 `:` 是必须的
-> `<statement>`：必须要缩进，否则会抛出 `IndentationError` 错误
+> * `<expr>` 后面的 `:` 是必须的
+> * `<statement>`：必须要缩进，否则会抛出 `IndentationError` 错误
 
 #### 举例
 
