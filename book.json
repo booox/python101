@@ -8,8 +8,8 @@
 		"click-reveal",
 		"accordion",
 		"popup",
-		"back-to-top-button",
-		"page-toc-button"
+		"page-toc-button",
+		"ancre-navigation"
     ],
 	"pluginsConfig": {
 		"hide-element": {
