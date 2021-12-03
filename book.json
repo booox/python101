@@ -7,16 +7,11 @@
 		"hide-element",
 		"click-reveal",
 		"accordion",
-		"popup",
-		"simple-page-toc"
+		"popup"
     ],
 	"pluginsConfig": {
 		"hide-element": {
 			"elements": [".gitbook-link"]
-		},
-		"simple-page-toc": {
-			"maxDepth": 3,
-			"skipFirstH1": true 
 		}
 	}
 }
