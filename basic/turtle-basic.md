@@ -83,7 +83,7 @@ t = turtle.Turtle()
     * `t.showturtle()`：显示    
 
 
-### 练习一：绘制一个连长为 100 的正方形
+### 练习一：绘制一个边长为 100 的正方形
 
 %accordion%参考代码%accordion%
 ```python
