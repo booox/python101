@@ -8,16 +8,21 @@
 ## 知识回顾
 
 %accordion%导入及创建海龟实例%accordion%
+
 ```
 import turtle
 t = turtle.Turtle()
 ``` 
+
 %/accordion%
 
+
 %accordion%设置颜色%accordion%
+
 ```
 t.color("yellow")  # 设置颜色
 ``` 
+
 %/accordion%
 
 
@@ -77,7 +82,7 @@ wn.bgcolor("gray")  # 使用颜色名称，gray，设置背景色为灰色
 # wn.bgcolor(255, 0, 0)  # 使用三个数字（0~255），设置背景色为红色
 ```
 
-> [!TIP]
+> [!TIP|style:flat]
 > * 如果使用数字来设置背景颜色，需要注意颜色模式的设置
 >   * `turtle.colormode(255)`，数字范围为 `0~255`
 >   * `turtle.colormode(1)`，数字范围为 `0~1`
@@ -105,9 +110,9 @@ wn.setup(width, height)     # 设置窗口大小
 wn.bgpic("city-night.gif")  # 设置背景图片
 ```
 
-> [!TIP]
+> [!TIP|style:flat]
 > * 上面代码中先设置了窗口的大小，目的是让图片充满整个窗口，这是可选的。
-> * 背景图片一定要 `.gif` 格式的。
+> * 背景图片一定要 **.gif** 格式的。
 > * 背景图片要与脚本放在相同的文件夹内，否则要指明图片的具体路径。
 
 
