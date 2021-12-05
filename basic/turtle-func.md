@@ -83,7 +83,9 @@ Don't Repeat Yourself (DRY) 是软件开发的一项原则，其主要目标是�
 在前面的课程中，我们已经学习过一些 Python 内置的函数。
 
 %accordion%测一测%accordion%
+
 <a href="exam/builtins.html" target="_blank">单击测一测：常用内置函数</a>
+
 %/accordion%
 
 
@@ -112,7 +114,9 @@ def 函数名([参数列表]):
 
 
 %accordion%测一测%accordion%
+
 <a href="exam/define.html" target="_blank">单击测一测：定义函数</a>
+
 %/accordion%
 
 **判断正误** : 下面函数定义的是否正确？
@@ -258,7 +262,9 @@ print(x)
 %/accordion%
 
 %accordion%测一测%accordion%
+
 <a href="exam/for-random.html" target="_blank">单击测一测：用循环生成 10 个随机数</a>
+
 %/accordion%
 
 ### 完成绘制 30 颗随机位置的五角星
