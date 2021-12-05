@@ -6,5 +6,6 @@
     * [Python 常用库速查](basic/python-libs.md)
     * [turtle 库基础知识速查](basic/turtle-basic.md)
     * [turtle-背景及第一颗星](basic/turtle-background.md)
+    * [turtle-函数](basic/turtle-func.md)
 
 
