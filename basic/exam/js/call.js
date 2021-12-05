@@ -4,16 +4,10 @@ castMembers = [
   {name: "()", code: "326433953", pcode: "int()", photo: "jack.jpg" },
   {name: "def", code: "162656962", pcode: "print()", photo: "judy.jpg" },
   {name: ":", code: "651717534", pcode: "dir()", photo: "margaret.jpg" },
-  {name: "函数体", code: "651717534", pcode: "dir()", photo: "margaret.jpg" },
+  {name: "函数体", code: "651717536", pcode: "dir()", photo: "margaret.jpg" },
 ];
 
-// castMembers = [
-  // {name: "Judy Garland", code: "162656962", photo: "judy.jpg" },
-  // {name: "Ray Bolger", code: "326433952", photo: "ray.jpg" },
-  // {name: "Jack Haley", code: "326433953", photo: "jack.jpg" },
-  // {name: "Bert Lahr", code: "326433954", photo: "bert.jpg" },
-  // {name: "Margaret Hamilton", code: "651717534", photo: "margaret.jpg" }
-// ];
+
 
 $(document).ready(function(){
   restart(castMembers);
@@ -70,31 +64,7 @@ function buildQuiz(castMembers) {
 
   
   
-  // $.each(castMembers, function(index, castMember) {
-     
-     // if (index != castMembers.length - 1) {
-        // console.log(index);
-         // $("#faces").append("<div class='col-xs-2'>" +
-                              // "<div class='center-block frame'>" +
-                                // "<img class='center-block face' src='images/"+ castMember.photo + "'>" +
-                                // "<div class='center-block face'>"+ castMember.pcode + "</div>" +
-                                // "<br>" +
-                                // "<div data-match-code='" + castMember.code + "'class='dropzone'>" +
-                              // "</div>" +
-                            // "</div>");        
-     // } else {
-        // console.log("index: " + index);
-         // $("#faces").append("<div class='col-xs-2' style='display: block; width: 50%;'>" +
-                      // "<div class='center-block frame'>" +
-                        // "<img class='center-block face' src='images/"+ castMember.photo + "'>" +
-                        // "<div class='center-block face'>"+ castMember.pcode + "</div>" +
-                        // "<br>" +
-                        // "<div data-match-code='" + castMember.code + "'class='dropzone'>" +
-                      // "</div>" +
-                    // "</div>");  
-     // }
-     
-  // });
+  
   
   
 

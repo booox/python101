@@ -8,13 +8,7 @@ castMembers = [
   {name: "查看对象可用方法", code: "651717534", pcode: "dir()", photo: "margaret.jpg" }
 ];
 
-// castMembers = [
-  // {name: "Judy Garland", code: "162656962", photo: "judy.jpg" },
-  // {name: "Ray Bolger", code: "326433952", photo: "ray.jpg" },
-  // {name: "Jack Haley", code: "326433953", photo: "jack.jpg" },
-  // {name: "Bert Lahr", code: "326433954", photo: "bert.jpg" },
-  // {name: "Margaret Hamilton", code: "651717534", photo: "margaret.jpg" }
-// ];
+
 
 $(document).ready(function(){
   restart(castMembers);

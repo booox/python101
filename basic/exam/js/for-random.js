@@ -1,10 +1,18 @@
 ﻿
 castMembers = [
-  {name: "def", code: "162656962", pcode: "print()", photo: "judy.jpg" },
-  {name: "函数名", code: "326433952", pcode: "input()", photo: "ray.jpg" },
-  {name: "()", code: "326433953", pcode: "int()", photo: "jack.jpg" },
-  {name: ":", code: "651717534", pcode: "dir()", photo: "margaret.jpg" },
-  {name: "函数体", code: "651717535", pcode: "dir()", photo: "margaret.jpg" },
+  {name: "import", code: "162656962", pcode: "print()", photo: "judy.jpg" },
+  {name: "random", code: "326433952", pcode: "input()", photo: "ray.jpg" },
+  {name: "for", code: "326433953", pcode: "int()", photo: "jack.jpg" },
+  {name: "i", code: "651717534", pcode: "dir()", photo: "margaret.jpg" },
+  {name: "in", code: "651717535", pcode: "dir()", photo: "margaret.jpg" },
+  {name: "range(10)", code: "651717536", pcode: "dir()", photo: "margaret.jpg" },
+  {name: ":", code: "651717546", pcode: "dir()", photo: "margaret.jpg" },
+  {name: "x = ", code: "651717537", pcode: "dir()", photo: "margaret.jpg" },
+  {name: "random.randint(", code: "651717538", pcode: "dir()", photo: "margaret.jpg" },
+  {name: "-100", code: "651717539", pcode: "dir()", photo: "margaret.jpg" },
+  {name: ", ", code: "651717540", pcode: "dir()", photo: "margaret.jpg" },
+  {name: "100)", code: "651717541", pcode: "dir()", photo: "margaret.jpg" },
+  {name: "print(x)", code: "651717542", pcode: "dir()", photo: "margaret.jpg" },
 ];
 
 
@@ -33,7 +41,7 @@ function scoreQuiz(){
   var totalScore = castMembers.length;
 
   $('.correct').addClass('reveal');
-  $('#score-reveal').html("<p class='display-score'>你得了 <strong>" + correctAnswers + "/" + totalScore + "</strong> 分。 <button id='restart' class='btn btn-info'>再试一次</button></p>");  
+  $('#score-reveal').html("<p class='display-score'>你得了 <strong>" + correctAnswers + "/" + totalScore + "</strong> 分。 <button id='restart' class='btn btn-info'>再试一次</button></p>");
 }
 
 function buildQuiz(castMembers) {
@@ -52,17 +60,36 @@ function buildQuiz(castMembers) {
                        "</div>");
   });
 
+  // line 1
   $("#faces").append("<ul class='nav'>");
-  $.each(castMembers.slice(0, -1), function(index, castMember) {
+  $.each(castMembers.slice(0, 2), function(index, castMember) {
+        console.log(index);
+        $("#faces").append("<li data-match-code='" + castMember.code + "'class='dropzone nav-item'></li>");        
+  });
+  $("#faces").append("</ul>");
+
+  // line 2
+  $("#faces").append("<ul class='nav'>");
+  $.each(castMembers.slice(2, 7), function(index, castMember) {
         console.log(index);
         $("#faces").append("<li data-match-code='" + castMember.code + "'class='dropzone nav-item'></li>");        
   });
   $("#faces").append("</ul>");
   
+  // line 3
   $("#faces").append("<ul class='nav'>");
-  $.each(castMembers.slice(-1), function(index, castMember) {
+  $("#faces").append("<li class='dropzone nav-item'></li>");        
+  $.each(castMembers.slice(7, 12), function(index, castMember) {
         console.log(index);
-        $("#faces").append("<li class='dropzone nav-item'></li>");        
+        $("#faces").append("<li data-match-code='" + castMember.code + "'class='dropzone nav-item'></li>");        
+  });
+  $("#faces").append("</ul>");
+
+  // line 4
+  $("#faces").append("<ul class='nav'>");
+  $("#faces").append("<li class='dropzone nav-item'></li>");        
+  $.each(castMembers.slice(-1), function(index, castMember) {
+        // console.log(index);
         $("#faces").append("<li data-match-code='" + castMember.code + "'class='dropzone nav-item'></li>");        
 
   });
