@@ -1,4 +1,4 @@
-# Python 的基本数据类型——String（字符串）
+ Python 的基本数据类型——String（字符串）
 
 ## 学了本课，可以掌握 
 
@@ -18,9 +18,9 @@
 字符串，在单引号、双引号或三引号之间的内容全部为字符串的组成。
 
 ```python
->>> s1 = '我是字符串'
->>> s2 = "我也是字符串"
->>> s3 = """
+s1 = '我是字符串'
+s2 = "我也是字符串"
+s3 = """
 我还是字符串
 而且，我还可以多行
 """
@@ -30,7 +30,7 @@
 > 需要注意这里的引号是英文状态下，若是中文引号，则会报错
 
 ```python
->>> s1 = '我是字符串‘
+s1 = '我是字符串‘
   File "<pyshell>", line 1
     s1 = '我是字符串‘
                ^
@@ -40,8 +40,8 @@ SyntaxError: EOL while scanning string literal
 字符串中的字符数量没有限制，取决你机器的内存。字符串也可以为空字符串：
 
 ```python
->>> s = ''
-```
+s = ''
+`` 进行转换时，参数要求为整数，需要将输入的数字转换为整数，可以使用 `int()``
 
 ### 字符串中要包含引号
 
@@ -49,12 +49,12 @@ SyntaxError: EOL while scanning string literal
 
 ```python
 # 1. 里面错开
->>> s = '培根说过："知识就是力量"'
->>> s = "Someone said, 'you can you up, no can no bb'."
+s = '培根说过："知识就是力量"'
+s = "Someone said, 'you can you up, no can no bb'."
 
 # 2. 使用转义字符
->>> s = "培根说过：\"知识就是力量\""
->>> s = 'Someone said, \'you can you up, no can no bb\'.'
+s = "培根说过：\"知识就是力量\""
+s = 'Someone said, \'you can you up, no can no bb\'.'
 ```
 
 ### 转义字符
@@ -73,9 +73,9 @@ SyntaxError: EOL while scanning string literal
 举例如下：
 
 ```python
->>> print("a\tb")
+print("a\tb")
 a    b
->>> print("a\nb")
+print("a\nb")
 a
 b
 ```
@@ -85,15 +85,15 @@ b
 原始字符串字面量以 `r` 或 `R` 开头，它不翻译字符串中的转义序列。
 
 ```python
->>> print('foo\nbar')
+print('foo\nbar')
 foo
 bar
->>> print(r'foo\nbar')
+print(r'foo\nbar')
 foo\nbar
 
->>> print('foo\\bar')
+print('foo\\bar')
 foo\bar
->>> print(R'foo\\bar')
+print(R'foo\\bar')
 foo\\bar
 ```
 
@@ -113,11 +113,11 @@ foo\\bar
 对于字符串来说，`+` 用于 **连接字符串**
 
 ```python
->>> s = 'abc'
->>> t = 'uvw'
->>> s + t
+s = 'abc'
+t = 'uvw'
+s + t
 'abcuvw'
->>> '2021' + '年' + '12' + '月' + '08' + '日'
+'2021' + '年' + '12' + '月' + '08' + '日'
 '2021年12月08日'
 ```
 
@@ -127,10 +127,10 @@ foo\\bar
 `*` 用于 **创建给定字符串的多个拷贝**
 
 ```python
->>> s = '镇海加油！'
->>> s * 5
+s = '镇海加油！'
+s * 5
 '镇海加油！镇海加油！镇海加油！镇海加油！镇海加油！'
->>> 5 * s
+5 * s
 '镇海加油！镇海加油！镇海加油！镇海加油！镇海加油！'
 ```
 
@@ -143,19 +143,19 @@ foo\\bar
 `in` 也叫 **成员判断符**，用于 **判断字符串是否存在另一个字符串里面**，如果在，返回 `True`，否则，返回 `False`。
 
 ```python
->>> s = '中国宁波镇海'
->>> '镇海' in s
+s = '中国宁波镇海'
+'镇海' in s
 True
->>> '海曙' in s
+'海曙' in s
 False
 ```
 
 还有一个 `not in` 操作符，用于 **判断字符串是否不存在另一个字符串里面**。
 
 ```python
->>> 'a' not in 'abc'
+'a' not in 'abc'
 False
->>> 'x' not in 'abc'
+'x' not in 'abc'
 True
 ```
 
@@ -171,33 +171,33 @@ True
 
 ```python
 # str()
->>> str('a')
+str('a')
 'a'
->>> str(34)
+str(34)
 '34'
->>> str([1, 2, 3])
+str([1, 2, 3])
 '[1, 2, 3]'
->>> str({'a': 1, 'b': 2})
+str({'a': 1, 'b': 2})
 "{'a': 1, 'b': 2}"
->>> str(3.14)
+str(3.14)
 '3.14'
 
 # ord() vs chr()
->>> ord('a')
+ord('a')
 97
->>> ord('z')
+ord('z')
 122
->>> chr(97)
+chr(97)
 'a'
->>> chr(122)
+chr(122)
 'z'
 
 # len()
->>> s = "人生苦短， 我用 Python"
->>> len(s)
+s = "人生苦短， 我用 Python"
+len(s)
 15
->>> s = 'Life is short, You need Python.'
->>> len(s)
+s = 'Life is short, You need Python.'
+len(s)
 31
 
 ```
@@ -221,7 +221,7 @@ ASCII 码表
 实现效果如下：
 
 ```python
->>> %Run 01.py
+%Run 01.py
 请输入一个字符：w
 请输入一个 ASCII 码：120
 
