@@ -80,6 +80,17 @@ a
 b
 ```
 
+### 任务一：练习示例
+
+下面哪些表达式是表示 `abc'def` 的有效方法？
+
+* A. 'abc'def'
+* B. "abc'def"
+* C. 'abc\'def'
+* D. """abc'def"""
+* E. 'abc''def'
+
+
 ### 原始字符串
 
 原始字符串字面量以 `r` 或 `R` 开头，它不翻译字符串中的转义序列。
@@ -97,9 +108,7 @@ print(R'foo\\bar')
 foo\\bar
 ```
 
-### 任务一：练习示例
 
-在 Thonny 中练习上面示例，理解在 Python 中如何定义字符串。
 
 
 ## 操作字符串
@@ -411,6 +420,11 @@ python 的大写为：PYTHON
 
 f-string 还有许多有趣的用法，留待聪明的你去挖掘了。
 
+
+#### 练习：有两个变量 `name` 与 `age` 
+
+用 `f-string` 写一个描述性的语句，将上述变量包含在里面.
+
 ### 修改字符串
 
 比如，想将字符串 `python` 修改为 `Python`，应该是这样做：
@@ -488,6 +502,19 @@ upper() method of builtins.str instance
 |`s.strip()`|从字符串的左右两端去除字符，默认去掉空白字符<br />可以是空格、制表符、换行符|`'  abc bbc cbc \t'.strip()` <br /> `# 'abc bbc cbc'`|
 
 
+**练习**
+
+不执行代码，思考一下打印的内容：
+
+```python
+print(
+    '$100 $200 $300'.count('$'),
+    '$100 $200 $300'.count('$', 5, 10),
+    '$100 $200 $300'.count('$', 5)
+)
+```
+
+
 #### 字符分类 
 
 **根据字符串包含的字符对字符串进行分类**
@@ -519,3 +546,15 @@ upper() method of builtins.str instance
 |`list('abcd')`|将字符串转换为字母列表|`list('abcd')` <br /> `# ['a', 'b', 'c', 'd']`|
 |`s.partition()`|将目标字符串根据分隔符进行拆分<br />返回一个 **元组**|`'name@qq.com'.partition('@')` <br /> `# ('name', '@', 'qq.com')`|
 |`s.split()`|将目标字符串根据分隔符进行拆分<br />返回一个 **列表**，且不包含分隔符|`'name@qq.com'.split('@')` <br /> `# ['name', 'qq.com']`|
+
+
+**练习**
+
+不执行代码，思考选择答案。
+s 的定义为：`s = 'foo-bar-baz'`，下面哪些表达式的值与 s 相等？
+
+* A. `'-'.join(s.partition('-'))`
+* B. `'-'.join(s.split('-'))`
+* C. `s.center(15)`
+* D. `s.strip('-')`
+* E. `s.upper().lower()`
