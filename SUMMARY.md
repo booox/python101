@@ -9,4 +9,5 @@
     * [turtle-背景及第一颗星](basic/turtle-background.md)
     * [基本数据类型-字符串](basic/data-types-strings.md)
     * [基本数据类型-列表](basic/data-types-lists.md)
+    * [基本数据类型-字典](basic/data-types-dictionary.md)
 
