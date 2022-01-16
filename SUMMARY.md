@@ -9,6 +9,7 @@
     * [turtle-背景及第一颗星](basic/turtle-background.md)
     * [基本数据类型-字符串](basic/data-types-strings.md)
     * [基本数据类型-列表](basic/data-types-lists.md)
+    * [基本数据类型-元组](basic/data-types-tuples.md)
     * [基本数据类型-字典](basic/data-types-dictionary.md)
 * [Python 进阶知识](advanced/README.md)
     * [collections 模块之 defaultdict 类型](advanced/python-defaultdict.md)
