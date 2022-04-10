@@ -1,6 +1,5 @@
 # Summary
 
-* [Introduction](README.md)
 * [Python 基础知识](basic/README.md)
     * [工作环境及 Hello World](basic/hello-world.md)
     * [Python 基础知识速查](basic/python-basic.md)
