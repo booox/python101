@@ -10,6 +10,7 @@
     * [基本数据类型-列表](basic/data-types-lists.md)
     * [基本数据类型-元组](basic/data-types-tuples.md)
     * [基本数据类型-字典](basic/data-types-dictionary.md)
+    * [文件读写](basic/file-read-and-write.md)
 * [Python 进阶知识](advanced/README.md)
     * [collections 模块之 defaultdict 类型](advanced/python-defaultdict.md)
 * [Excel 操作录屏](excel/README.md)
