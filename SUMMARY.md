@@ -13,5 +13,6 @@
     * [文件读写](basic/file-read-and-write.md)
 * [Python 进阶知识](advanced/README.md)
     * [collections 模块之 defaultdict 类型](advanced/python-defaultdict.md)
+* [Python Adventure](advent/README.md)
 * [Excel 操作录屏](excel/README.md)
     * [if 函数](excel/excel-if.md)
